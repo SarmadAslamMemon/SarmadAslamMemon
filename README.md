@@ -35,7 +35,7 @@ not a resume, just what's actually true right now:
   </picture>
 </p>
 
-<sub>⚠️ this only animates once you add <code>snake.yml</code> to <code>.github/workflows/</code> in your <code>&lt;username&gt;/&lt;username&gt;</code> repo — see setup notes at the bottom.</sub>
+<sub>generated daily from my GitHub contribution graph.</sub>
 
 <br/>
 
@@ -93,16 +93,3 @@ fri  ██████░░░░░░░░░░░░░░░░░░░
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=0:1a1a2e,100:0f0f1a&height=90&section=footer"/>
-
----
-
-<sub>
-
-**setup note (delete before publishing):** the snake needs one extra step because GitHub
-won't animate it on its own — put `snake.yml` in `.github/workflows/` on your
-`<username>/<username>` repo, push once, let the Action run, and it'll generate the
-svg/gif on an `output` branch that the image tags above pull from. Swap
-`SarmadAslamMemon` in the `raw.githubusercontent.com` URLs and the stats badges
-for your actual username first.
-
-</sub>
